@@ -1,0 +1,104 @@
+#parrafo-prueba {
+    background-color: black;
+    color: white;
+    border-style: solid;
+    border-color: red;
+    border-width: 15px;
+    border-width: 50px 60px 80px 100px;
+}
+
+
+p.dotted {
+    border-style: dotted;
+}
+
+p.dashed {
+    border-style: dashed;
+}
+
+p.solid {
+    border-style: solid;
+}
+
+p.double {
+    border-style: double;
+}
+
+p.groove {
+    border-style: groove;
+}
+
+p.ridge {
+    border-style: ridge;
+}
+
+p.inset {
+    border-style: inset;
+}
+
+p.outset {
+    border-style: outset;
+}
+
+p.none {
+    border-style: none;
+}
+
+p.hidden {
+    border-style: hidden;
+}
+
+p.mix {
+    border-style: dotted dashed solid double;
+}
+
+/* La propiedad border-width con tamaño especifico*/
+p.uno {
+    border-style: solid;
+    border-width: 5px 20px;
+    /* 5px top and bottom, 20px on the sides */
+}
+
+p.dos {
+    border-style: solid;
+    border-width: 20px 5px;
+    /* 20px top and bottom, 5px on the sides */
+}
+
+p.tres {
+    border-style: solid;
+    border-width: 25px 10px 4px 35px;
+    /* 25px top, 10px right, 4px bottom and 35px left */
+}
+
+#primera-imagen {
+    border-color: aqua;
+    border-style: double;
+    border-width: 30px 50px 30px 50px;
+    border-radius: 20%;
+}
+
+#segunda-imagen {
+    border-color: green;
+    border-style: groove;
+    border-width: 80px;
+}
+
+#tercera-imagen {
+    border-color: yellow;
+    border-style: inset;
+    border-width: 100px;
+    border-radius: 45%;
+}
+
+#cuarta-imagen {
+    border-color: rgb(53, 38, 53);
+    border-style: solid;
+    border-width: 20px 30px 80px 100px;
+}
+
+#quinta-imagen {
+    border-color: rgb(131, 67, 8);
+    border-style: ridge;
+    border-width: 100px;
+}
